@@ -1,0 +1,70 @@
+\documentclass[11pt]{article}
+\usepackage[margin=1in]{geometry}
+\usepackage{booktabs}
+\usepackage{array}
+\usepackage{longtable}
+\usepackage{multirow}
+\usepackage{siunitx}
+\usepackage{xcolor}
+\usepackage{caption}
+
+% Define column types for better formatting
+\newcolumntype{L}[1]{>{\raggedright\arraybackslash}p{#1}}
+\newcolumntype{C}[1]{>{\centering\arraybackslash}p{#1}}
+\newcolumntype{R}[1]{>{\raggedleft\arraybackslash}p{#1}}
+
+\begin{document}
+
+\pagenumbering{gobble}
+
+% CT-9
+\begin{table}[h!]
+\centering
+\caption*{Mataquito Geologic Units Distribution}
+\begin{tabular}{@{}L{3cm}S[table-format=3.2]S[table-format=2.1]@{}}
+\toprule
+\textbf{Geologic Unit} & \textbf{Area (km²)} & \textbf{Percent (\%)} \\
+\midrule
+OM2c & 2206.23 & 35.72 \\
+Q1 & 864.36 & 13.99 \\
+Pl3t & 365.57 & 5.92 \\
+PPl3 & 334.39 & 5.41 \\
+J3i & 278.35 & 4.51 \\
+Kia2 & 274.06 & 4.44 \\
+Qf & 206.21 & 3.34 \\
+Q3av & 195.08 & 3.16 \\
+Q3i & 159.97 & 2.59 \\
+Kiag & 148.02 & 2.40 \\
+Js1c & 141.77 & 2.30 \\
+Mg & 138.25 & 2.24 \\
+Ji1m & 130.44 & 2.11 \\
+Pz4b & 126.18 & 2.04 \\
+Ki2c & 126.04 & 2.04 \\
+Ki2m & 87.90 & 1.42 \\
+PzTr4 & 76.73 & 1.24 \\
+Js1m & 75.47 & 1.22 \\
+CPg & 61.39 & 0.99 \\
+Tr1m & 58.38 & 0.95 \\
+Kia1c & 37.57 & 0.61 \\
+DC4 & 34.52 & 0.56 \\
+JK1m & 19.90 & 0.32 \\
+Mimg & 19.20 & 0.31 \\
+Pz4a & 11.12 & 0.18 \\
+Jig & 0.05 & 0.00 \\
+\midrule
+\textbf{Total} & \textbf{6177.16} & \textbf{100.00} \\
+\midrule
+\multicolumn{3}{c}{Excluded Units (Water Bodies \& Unmapped Areas)} \\
+\midrule
+arg & 8.55 \\
+Lag & 7.94 \\
+G & 5.78 \\
+\midrule
+\textbf{Total Excluded} & \textbf{22.27} \\
+\midrule
+\textbf{Total Area} &  \textbf{6199.43} \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+\end{document}

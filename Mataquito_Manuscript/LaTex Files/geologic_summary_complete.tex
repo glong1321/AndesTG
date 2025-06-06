@@ -1,0 +1,469 @@
+\documentclass[11pt]{article}
+\usepackage[margin=1in]{geometry}
+\usepackage{booktabs}
+\usepackage{array}
+\usepackage{longtable}
+\usepackage{multirow}
+\usepackage{siunitx}
+\usepackage{xcolor}
+\usepackage{caption}
+
+% Define column types for better formatting
+\newcolumntype{L}[1]{>{\raggedright\arraybackslash}p{#1}}
+\newcolumntype{C}[1]{>{\centering\arraybackslash}p{#1}}
+\newcolumntype{R}[1]{>{\raggedleft\arraybackslash}p{#1}}
+
+\begin{document}
+
+\pagenumbering{gobble}
+
+
+% CT-1
+\begin{table}[h!]
+\centering
+\caption*{a) CT-1 - Geologic Units Distribution}
+\begin{tabular}{@{}L{3cm}S[table-format=3.2]S[table-format=2.1]@{}}
+\toprule
+\textbf{Geologic Unit} & \textbf{Area (km²)} & \textbf{Percent (\%)} \\
+\midrule
+OM2c & 634.50 & 46.05 \\
+PPl3 & 292.52 & 21.23 \\
+Pl3t & 203.41 & 14.76 \\
+Q3i & 92.51 & 6.71 \\
+Q1 & 82.45 & 5.98 \\
+Mg & 38.06 & 2.76 \\
+DC4 & 34.52 & 2.50 \\
+\midrule
+\textbf{Total} & \textbf{1377.96} & \textbf{100.00} \\
+\midrule
+\multicolumn{3}{c}{\text{Excluded Units (Water Bodies \& Unmapped Areas)}} \\
+\midrule
+arg & 3.13 \\
+G & 1.31 \\
+\midrule
+\textbf{Total Excluded} & \textbf{4.44} \\
+\midrule
+\textbf{Total Area} & \textbf{1382.40}  \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+
+\newpage
+
+% CT-2
+\begin{table}[h!]
+\centering
+\caption*{b) CT-2 - Geologic Units Distribution}
+\begin{tabular}{@{}L{3cm}S[table-format=3.2]S[table-format=2.1]@{}}
+\toprule
+\textbf{Geologic Unit} & \textbf{Area (km²)} & \textbf{Percent (\%)} \\
+\midrule
+OM2c & 2206.23 & 38.44 \\
+Q1 & 843.09 & 14.69 \\
+Pl3t & 365.57 & 6.37 \\
+PPl3 & 334.39 & 5.83 \\
+Kia2 & 274.06 & 4.78 \\
+Qf & 200.55 & 3.49 \\
+Q3av & 195.08 & 3.40 \\
+Q3i & 159.97 & 2.79 \\
+J3i & 150.46 & 2.62 \\
+Kiag & 148.02 & 2.58 \\
+Js1c & 141.77 & 2.47 \\
+Mg & 138.25 & 2.41 \\
+Ki2c & 126.04 & 2.20 \\
+Ki2m & 87.90 & 1.53 \\
+Js1m & 75.47 & 1.32 \\
+Ji1m & 50.31 & 0.88 \\
+Pz4b & 45.94 & 0.80 \\
+Kia1c & 37.57 & 0.65 \\
+PzTr4 & 35.78 & 0.62 \\
+DC4 & 34.52 & 0.60 \\
+Tr1m & 31.58 & 0.55 \\
+JK1m & 19.90 & 0.35 \\
+Mimg & 19.20 & 0.33 \\
+CPg & 16.06 & 0.28 \\
+Pz4a & 0.98 & 0.02 \\
+\midrule
+\textbf{Total} & \textbf{5738.69} & \textbf{100.00} \\
+\midrule
+\multicolumn{3}{c}{\text{Excluded Units (Water Bodies \& Unmapped Areas)}} \\
+\midrule
+arg & 8.55 \\
+Lag & 7.94 \\
+G & 5.78 \\
+\midrule
+\textbf{Total Excluded} & \textbf{22.27} \\
+\midrule
+\textbf{Total Area} & \textbf{5760.96} \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+
+\newpage
+
+% CT-3
+\begin{table}[h!]
+\centering
+\caption*{c) CT-3 - Geologic Units Distribution}
+\begin{tabular}{@{}L{3cm}S[table-format=3.2]S[table-format=2.1]@{}}
+\toprule
+\textbf{Geologic Unit} & \textbf{Area (km²)} & \textbf{Percent (\%)} \\
+\midrule
+J3i & 87.62 & 46.19 \\
+CPg & 38.91 & 20.51 \\
+Ji1m & 31.93 & 16.83 \\
+Tr1m & 17.43 & 9.19 \\
+Pz4b & 13.10 & 6.91 \\
+Q1 & 0.66 & 0.35 \\
+Jig & 0.05 & 0.03 \\
+\midrule
+\textbf{Total} & \textbf{189.71} & \textbf{100.00} \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+
+\newpage
+
+% CT-4
+\begin{table}[h!]
+\centering
+\caption*{d) CT-4 - Geologic Units Distribution}
+\begin{tabular}{@{}L{3cm}S[table-format=3.2]S[table-format=2.1]@{}}
+\toprule
+\textbf{Geologic Unit} & \textbf{Area (km²)} & \textbf{Percent (\%)} \\
+\midrule
+OM2c & 2206.23 & 47.10 \\
+Q1 & 770.30 & 16.45 \\
+PPl3 & 334.39 & 7.14 \\
+Pl3t & 297.92 & 6.36 \\
+Q3av & 195.08 & 4.17 \\
+Kia2 & 188.47 & 4.02 \\
+Q3i & 159.97 & 3.42 \\
+Js1c & 141.77 & 3.03 \\
+Mg & 138.25 & 2.95 \\
+Js1m & 75.47 & 1.61 \\
+Qf & 63.37 & 1.35 \\
+Kia1c & 37.57 & 0.80 \\
+DC4 & 34.52 & 0.74 \\
+JK1m & 19.90 & 0.42 \\
+Mimg & 19.20 & 0.41 \\
+Kiag & 1.12 & 0.02 \\
+Ki2c & 0.25 & 0.01 \\
+\midrule
+\textbf{Total} & \textbf{4683.79} & \textbf{100.00} \\
+\midrule
+\multicolumn{3}{c}{Excluded Units (Water Bodies \& Unmapped Areas)} \\
+\midrule
+arg & 8.55 \\
+Lag & 7.94 \\
+G & 5.78 \\
+\midrule
+\textbf{Total Excluded} & \textbf{22.27} \\
+\midrule
+\textbf{Total Area} & \textbf{4706.06} \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+
+\newpage
+
+% CT-5
+\begin{table}[h!]
+\centering
+\caption*{e) CT-5 - Geologic Units Distribution}
+\begin{tabular}{@{}L{3cm}S[table-format=3.2]S[table-format=2.1]@{}}
+\toprule
+\textbf{Geologic Unit} & \textbf{Area (km²)} & \textbf{Percent (\%)} \\
+\midrule
+OM2c & 929.08 & 62.87 \\
+Js1c & 141.77 & 9.59 \\
+Js1m & 75.47 & 5.11 \\
+Q3i & 67.46 & 4.57 \\
+Q1 & 67.36 & 4.56 \\
+Mg & 56.29 & 3.81 \\
+Q3av & 42.28 & 2.86 \\
+Kia1c & 37.57 & 2.54 \\
+JK1m & 19.90 & 1.35 \\
+Mimg & 19.20 & 1.30 \\
+Pl3t & 10.74 & 0.73 \\
+PPl3 & 6.14 & 0.42 \\
+Qf & 4.57 & 0.31 \\
+\midrule
+\textbf{Total} & \textbf{1477.82} & \textbf{100.00} \\
+\midrule
+\multicolumn{3}{c}{Excluded Units (Water Bodies \& Unmapped Areas)} \\
+\midrule
+Lag & 7.94 \\
+arg & 5.42 \\
+G & 4.47 \\
+\midrule
+\textbf{Total Excluded} & \textbf{17.83} \\
+\midrule
+\textbf{Total Area} & \textbf{1495.65} \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+\newpage
+
+% CT-6
+\begin{table}[h!]
+\centering
+\caption*{f) CT-6 - Geologic Units Distribution}
+\begin{tabular}{@{}L{3cm}S[table-format=3.2]S[table-format=2.1]@{}}
+\toprule
+\textbf{Geologic Unit} & \textbf{Area (km²)} & \textbf{Percent (\%)} \\
+\midrule
+OM2c & 1276.84 & 49.27 \\
+Q1 & 482.30 & 18.61 \\
+PPl3 & 328.25 & 12.67 \\
+Pl3t & 230.45 & 8.89 \\
+Q3i & 92.51 & 3.57 \\
+Mg & 81.96 & 3.16 \\
+Q3av & 48.95 & 1.89 \\
+DC4 & 34.52 & 1.33 \\
+Qf & 15.69 & 0.61 \\
+\midrule
+\textbf{Total} & \textbf{2591.46} & \textbf{100.00} \\
+\midrule
+\multicolumn{3}{c}{Excluded Units (Water Bodies \& Unmapped Areas)} \\
+\midrule
+arg & 3.13 \\
+G & 1.31 \\
+\midrule
+\textbf{Total Excluded} & \textbf{4.44} \\
+\midrule
+\textbf{Total Area} & \textbf{2595.90} \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+
+\newpage
+
+% CT-7
+\begin{table}[h!]
+\centering
+\caption*{g) CT-7 - Geologic Units Distribution}
+\begin{tabular}{@{}L{3cm}S[table-format=3.2]S[table-format=2.1]@{}}
+\toprule
+\textbf{Geologic Unit} & \textbf{Area (km²)} & \textbf{Percent (\%)} \\
+\midrule
+OM2c & 774.48 & 65.07 \\
+Js1c & 141.77 & 11.91 \\
+Js1m & 75.47 & 6.34 \\
+Q3i & 67.46 & 5.67 \\
+Mg & 56.29 & 4.73 \\
+Kia1c & 37.57 & 3.16 \\
+JK1m & 19.90 & 1.67 \\
+Pl3t & 10.74 & 0.90 \\
+PPl3 & 6.14 & 0.52 \\
+Mimg & 0.44 & 0.04 \\
+\midrule
+\textbf{Total} & \textbf{1190.26} & \textbf{100.00} \\
+\midrule
+\multicolumn{3}{c}{Excluded Units (Water Bodies \& Unmapped Areas)} \\
+\midrule
+Lag & 7.94 \\
+arg & 5.42 \\
+G & 4.47 \\
+\midrule
+\textbf{Total Excluded} & \textbf{17.83} \\
+\midrule
+\textbf{Total Area} & \textbf{1208.09} \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+
+\newpage
+
+% CT-8
+\begin{table}[h!]
+\centering
+\caption*{h) CT-8 - Geologic Units Distribution}
+\begin{tabular}{@{}L{3cm}S[table-format=3.2]S[table-format=2.1]@{}}
+\toprule
+\textbf{Geologic Unit} & \textbf{Area (km²)} & \textbf{Percent (\%)} \\
+\midrule
+OM2c & 2206.23 & 44.79 \\
+Q1 & 775.75 & 15.75 \\
+Pl3t & 347.82 & 7.06 \\
+PPl3 & 334.39 & 6.79 \\
+Kia2 & 252.71 & 5.13 \\
+Q3av & 195.08 & 3.96 \\
+Q3i & 159.97 & 3.25 \\
+Js1c & 141.77 & 2.88 \\
+Mg & 138.25 & 2.81 \\
+Qf & 101.15 & 2.05 \\
+Js1m & 75.47 & 1.53 \\
+Kiag & 43.04 & 0.87 \\
+Kia1c & 37.57 & 0.76 \\
+DC4 & 34.52 & 0.70 \\
+Ki2c & 32.32 & 0.66 \\
+JK1m & 19.90 & 0.40 \\
+Mimg & 19.20 & 0.39 \\
+Ki2m & 10.19 & 0.21 \\
+\midrule
+\textbf{Total} & \textbf{4925.31} & \textbf{100.00} \\
+\midrule
+\multicolumn{3}{c}{Excluded Units (Water Bodies \& Unmapped Areas)} \\
+\midrule
+arg & 8.55 \\
+Lag & 7.94 \\
+G & 5.78 \\
+\midrule
+\textbf{Total Excluded} & \textbf{22.27} \\
+\midrule
+\textbf{Total Area} & \textbf{4947.59} \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+
+\newpage
+
+% CT-9
+\begin{table}[h!]
+\centering
+\caption*{i) CT-9 - Geologic Units Distribution}
+\begin{tabular}{@{}L{3cm}S[table-format=3.2]S[table-format=2.1]@{}}
+\toprule
+\textbf{Geologic Unit} & \textbf{Area (km²)} & \textbf{Percent (\%)} \\
+\midrule
+OM2c & 2206.23 & 35.72 \\
+Q1 & 864.36 & 13.99 \\
+Pl3t & 365.57 & 5.92 \\
+PPl3 & 334.39 & 5.41 \\
+J3i & 278.35 & 4.51 \\
+Kia2 & 274.06 & 4.44 \\
+Qf & 206.21 & 3.34 \\
+Q3av & 195.08 & 3.16 \\
+Q3i & 159.97 & 2.59 \\
+Kiag & 148.02 & 2.40 \\
+Js1c & 141.77 & 2.30 \\
+Mg & 138.25 & 2.24 \\
+Ji1m & 130.44 & 2.11 \\
+Pz4b & 126.18 & 2.04 \\
+Ki2c & 126.04 & 2.04 \\
+Ki2m & 87.90 & 1.42 \\
+PzTr4 & 76.73 & 1.24 \\
+Js1m & 75.47 & 1.22 \\
+CPg & 61.39 & 0.99 \\
+Tr1m & 58.38 & 0.95 \\
+Kia1c & 37.57 & 0.61 \\
+DC4 & 34.52 & 0.56 \\
+JK1m & 19.90 & 0.32 \\
+Mimg & 19.20 & 0.31 \\
+Pz4a & 11.12 & 0.18 \\
+Jig & 0.05 & 0.00 \\
+\midrule
+\textbf{Total} & \textbf{6177.16} & \textbf{100.00} \\
+\midrule
+\multicolumn{3}{c}{Excluded Units (Water Bodies \& Unmapped Areas)} \\
+\midrule
+arg & 8.55 \\
+Lag & 7.94 \\
+G & 5.78 \\
+\midrule
+\textbf{Total Excluded} & \textbf{22.27} \\
+\midrule
+\textbf{Total Area} &  \textbf{6199.43} \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+
+\newpage
+
+% CT-10
+\begin{table}[h!]
+\centering
+\caption*{j) CT-10 - Geologic Units Distribution}
+\begin{tabular}{@{}L{3cm}S[table-format=3.2]S[table-format=2.1]@{}}
+\toprule
+\textbf{Geologic Unit} & \textbf{Area (km²)} & \textbf{Percent (\%)} \\
+\midrule
+OM2c & 2206.23 & 45.40 \\
+Q1 & 775.55 & 15.96 \\
+Pl3t & 340.65 & 7.01 \\
+PPl3 & 334.39 & 6.88 \\
+Kia2 & 252.71 & 5.20 \\
+Q3av & 195.08 & 4.01 \\
+Q3i & 159.97 & 3.29 \\
+Js1c & 141.77 & 2.92 \\
+Mg & 138.25 & 2.84 \\
+Qf & 79.28 & 1.63 \\
+Js1m & 75.47 & 1.55 \\
+Kia1c & 37.57 & 0.77 \\
+DC4 & 34.52 & 0.71 \\
+Kiag & 27.72 & 0.57 \\
+Ki2c & 21.44 & 0.44 \\
+JK1m & 19.90 & 0.41 \\
+Mimg & 19.20 & 0.40 \\
+\midrule
+\textbf{Total} & \textbf{4859.69} & \textbf{100.00} \\
+\midrule
+\multicolumn{3}{c}{\text{Excluded Units (Water Bodies \& Unmapped Areas)}} \\
+\midrule
+arg & 8.55 \\
+Lag & 7.94 \\
+G & 5.78 \\
+\midrule
+\textbf{Total Excluded} & \textbf{22.27} \\
+\midrule
+\textbf{Total Area} & \textbf{4881.96} \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+
+\newpage
+
+
+\begin{table}[h!]
+\centering
+\caption*{k) CT-11 - Geologic Units Distribution}
+\begin{tabular}{@{}L{3cm}S[table-format=3.2]S[table-format=2.1]@{}}
+\toprule
+\textbf{Geologic Unit} & \textbf{Area (km²)} & \textbf{Percent (\%)} \\
+\midrule
+OM2c & 2206.23 & 45.13 \\
+Q1 & 775.55 & 15.86 \\
+Pl3t & 342.76 & 7.01 \\
+PPl3 & 334.39 & 6.84 \\
+Kia2 & 252.71 & 5.17 \\
+Q3av & 195.08 & 3.99 \\
+Q3i & 159.97 & 3.27 \\
+Js1c & 141.77 & 2.90 \\
+Mg & 138.25 & 2.83 \\
+Qf & 93.72 & 1.92 \\
+Js1m & 75.47 & 1.54 \\
+Kia1c & 37.57 & 0.77 \\
+DC4 & 34.52 & 0.71 \\
+Kiag & 31.81 & 0.65 \\
+Ki2c & 29.33 & 0.60 \\
+JK1m & 19.90 & 0.41 \\
+Mimg & 19.20 & 0.39 \\
+Ki2m & 0.67 & 0.01 \\
+\midrule
+\textbf{Total} & \textbf{4888.90} & \textbf{100.00} \\
+\midrule
+\multicolumn{3}{c}{\text{Excluded Units (Water Bodies \& Unmapped Areas)}} \\
+\midrule
+arg & 8.55 \\
+Lag & 7.94 \\
+G & 5.78 \\
+\midrule
+\textbf{Total Excluded} & \textbf{22.27} \\
+\midrule
+\textbf{Total Area} & \textbf{4911.17}\\
+\bottomrule
+\end{tabular}
+\end{table}
+
+\end{document}
