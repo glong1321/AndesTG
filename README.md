@@ -8,5 +8,5 @@ This project investigates sediment mixing processes through multi-proxy analysis
 - ProductionRates.ipynb - Calculates ¹⁰Be production rates for cosmogenic nuclide analysis and erosion rate quantification
 - Mataquito_quartz_zircon_fertilities.ipynb - Calculates fertility indices for quartz and zircon populations to assess source rock contributions and mineral abundances
 - SubwatershedGeologicUnits.ipynb - Quantifies areal distributions and proportions of geological units within subwatersheds of the Mataquito River system
-- detritalMixer_CT_2025_2025.ipynb - Calculates mixing coefficients for different sediment source scenarios and evaluates mixing model performance using latest 2025 datasets
+- detritalMixer_CT_2025_2025.ipynb - Calculates mixing coefficients for different sediment source scenarios and evaluates mixing model performance using detritalPy-mix version 0.1 (beta)
 - detritalPy_Mataquito_All_2025.ipynb - Comprehensive detrital zircon analysis using detritalPy framework, including age distributions, provenance analysis, and statistical visualization for all Mataquito samples
